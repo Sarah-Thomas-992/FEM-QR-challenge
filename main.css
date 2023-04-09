@@ -1,0 +1,53 @@
+html {
+    background: hsl(212, 45%, 89%);
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.wrapper .container {
+    border-radius: 15px;
+    background: white;
+    width: 375px;
+    margin: 0 auto;
+    text-align: center;
+    filter: drop-shadow(10px 10px 10px hsl(220, 30%, 80%));
+}
+
+.container-image {
+    width: 345px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.container h1 {
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    margin: 10px 30px;
+}
+
+.container p{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    margin: 15px 50px 40px 50px;
+}
+
+.attribution{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 0;
+}
